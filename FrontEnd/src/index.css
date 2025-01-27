@@ -1,0 +1,4 @@
+.swiper-button-prev:after, .swiper-button-next:after{
+    color:#8a9f40;
+    background: url('your-next-icon.png')
+}

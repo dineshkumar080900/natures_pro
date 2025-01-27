@@ -1,0 +1,4 @@
+.no-scroll-section {
+    overflow-y: hidden;
+    height: 100vh; /* Set height to the height of the viewport */
+  }

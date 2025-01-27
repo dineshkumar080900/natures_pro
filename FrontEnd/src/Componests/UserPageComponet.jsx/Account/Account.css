@@ -1,0 +1,89 @@
+\/* Navbar custom styles */
+.navbar-custom {
+    background-color: #2c3e50; /* Dark blue background */
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-link-custom {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-left: 15px;
+    font-size: 1.1rem;
+}
+
+.nav-link-custom:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+/* Main Container Styling */
+.main-container {
+    padding: 30px;
+}
+
+.sidebar-container {
+    background-color: #34495e; /* Slightly lighter shade for sidebar */
+    padding: 20px;
+    color: white;
+    min-height: 100vh;
+    border-right: 2px solid #ecf0f1; /* Light border to separate content */
+}
+
+.content-container {
+    background-color: #ecf0f1; /* Very light grey background for content area */
+    padding: 30px;
+    min-height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Rounded corners for content area */
+}
+
+/* Sidebar styling for mobile */
+@media (max-width: 768px) {
+    .sidebar-container {
+        display: none; /* Hide sidebar on small screens */
+    }
+
+    .content-container {
+        padding: 15px; /* Reduce padding on mobile */
+    }
+
+    .navbar-custom {
+        background-color: #2c3e50; /* Darker shade for navbar on mobile */
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-nav .nav-link-custom {
+        font-size: 1.2rem; /* Larger font size for navbar items on mobile */
+    }
+}
+
+/* Additional improvements for small screen responsiveness */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem; /* Adjust font size for mobile */
+    }
+
+    .navbar-nav {
+        text-align: center; /* Center navbar links on mobile */
+    }
+}
+
+/* Add styling for logout button */
+.navbar-nav .nav-link-custom:last-child {
+    color: #ff5733; /* Logout link with a distinct color */
+}
+
+.navbar-nav .nav-link-custom:last-child:hover {
+    color: #c0392b; /* Darker red on hover */
+}
+
+

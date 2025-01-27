@@ -1,0 +1,24 @@
+.slick-slider{
+    padding: opx;
+}
+
+
+.bannerimage{
+    width: 100%;
+    height: 500px;
+    object-fit: fill;
+}
+
+
+@media (max-width: 768px) {
+    .bannerimage {
+      height: 300px; /* Reduce height for smaller screens */
+    }
+  }
+  
+  /* For mobile devices (screen width less than 576px) */
+  @media (max-width: 576px) {
+    .bannerimage {
+      height: 200px; /* Further reduce height for small mobile devices */
+    }
+  }

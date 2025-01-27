@@ -1,0 +1,59 @@
+.Navbarlogo{
+justify-content:  end;
+}
+.Navbarlogo img {
+    max-height: 50px; /* Adjust logo size */
+  }
+  
+  button {
+    border: none;
+    background: none; /* Removes default button styles */
+  }
+  
+  button:hover {
+    color: #007bff; /* Optional: Add hover effect */
+  }
+  
+  @media (max-width: 992px) {
+    .Navbarlogo {
+      justify-content: center !important; /* Center logo on smaller screens */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .position-relative .badge {
+      transform: translate(50%, -50%);
+      top: 5px;
+      right: 5px;
+    }
+  
+    .d-flex .btn {
+      font-size: 0.875rem;
+      margin: 0.25rem;
+    }
+  }
+
+  .icondetails i{
+    margin: 20px;
+  }
+
+  /* @media (max-width: 768px) { */
+
+
+.loginoffcanvas{
+  background-color: hsl(15, 0%, 0%);
+  justify-content: center;
+  
+}
+
+.btn-close{
+  display:flex;
+  color: rgb(255, 255, 255);
+  margin: 200px;
+  background-color: red;
+}
+.btn-close:hover{
+  color: rgb(255, 255, 255);
+  background-color: red;
+  display: flex;
+}
