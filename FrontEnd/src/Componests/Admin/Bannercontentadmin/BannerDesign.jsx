@@ -285,7 +285,7 @@ const BannerDesign = () => {
                           <td>{banner.option}</td>
                           <td>
                             <img
-                              src={`${url}/${banner.image}`}
+                              src={`${url}${banner.image}`}
                               alt={banner.name}
                               style={{ width: '100px' }}
                             />
