@@ -179,7 +179,7 @@ export default function AddCart() {
                 <Col xs={12} sm={6} className="d-flex align-items-center mb-3 mb-sm-0">
                   <img
                     // Ensure images is defined, fallback if missing
-                    src={`http://localhost:8080/image_product/${item.productId?.images?.[0] || 'default-image.jpg'}`} 
+                    src={`${url}/image_product/${item.productId?.images?.[0] || 'default-image.jpg'}`} 
                     alt={item.productId?.name || 'Product Image'}
                     className="img-fluid"
                     style={{
