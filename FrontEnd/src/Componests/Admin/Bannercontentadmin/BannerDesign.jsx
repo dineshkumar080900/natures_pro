@@ -284,11 +284,11 @@ const BannerDesign = () => {
                           <td>{banner.name}</td>
                           <td>{banner.option}</td>
                           <td>
-                            <img
-                              src={`${url}${banner.image}`}
-                              alt={banner.name}
-                              style={{ width: '100px' }}
-                            />
+                          <img
+                            src={`${url}${banner.image}`}  // Concatenates the `url` and `banner.image` to form the full image URL
+                            alt={banner.name}  // Sets the alt attribute of the image for accessibility and SEO
+                            style={{ width: '100px' }}  // Applies inline CSS to set the width of the image
+                          />
                           </td>
                           <td className="col-4">
                             <Button variant="info" className="m-1 col-lg-3" onClick={() => handleEditBanner(banner)}>
