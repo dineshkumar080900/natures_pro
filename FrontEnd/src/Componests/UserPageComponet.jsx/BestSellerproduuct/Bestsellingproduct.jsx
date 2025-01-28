@@ -201,7 +201,7 @@ const getRatingColor = (rating) => {
                     >
                       <Link to={`/products/${product._id}`}>
                         <img
-                          src={`http://localhost:8080/image_product/${product.images[0]}`}
+                          src={`${url}/image_product/${product.images[0]}`}
                           alt={product.name}
                           style={{
                             width: '100%',
